@@ -1,4 +1,3 @@
-
 server:
   port: 8081
 
@@ -8,10 +7,12 @@ spring:
       server:
         git:
           uri: https://github.com/jsmithr/practice-customer.git
-          searchPath: config-data
-          username: ${GIT_USERNAME}
+          skipSslValidation: true
+          searchPaths: config-data
+          username: ${GIT_USER}
           password: ${GIT_PASSWORD}
+          default-label: "master"
   security:
-      user:
-          name: root
-          password: s3cr3t
+    user:
+      name: root
+      password: s3cr3t  
