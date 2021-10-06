@@ -7,4 +7,11 @@ spring:
     config:
       server:
         git:
-          uri:
+          uri: https://github.com/jsmithr/practice-customer.git
+          searchPath: config-data
+          username: ${GIT_USERNAME}
+          password: ${GIT_PASSWORD}
+  security:
+      user:
+          name: root
+          password: s3cr3t
