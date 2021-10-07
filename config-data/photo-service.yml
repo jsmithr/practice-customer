@@ -4,6 +4,12 @@ server:
   error:
     include-message: always
     include-binding-errors: always
+spring:
+  data:
+    mongodb:
+      user: jsrz_pragma
+      password: jsmithr
+      uri: mongodb://practicecustomer.kudgh.mongodb.net/photo-customer
 eureka:
   client:
     serviceUrl:
