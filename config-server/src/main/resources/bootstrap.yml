@@ -7,7 +7,6 @@ spring:
       server:
         git:
           uri: https://github.com/jsmithr/practice-customer.git
-          skipSslValidation: true
           searchPaths: config-data
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
