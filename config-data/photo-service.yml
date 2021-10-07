@@ -11,7 +11,6 @@ spring:
       username: jsrz_pragma
       password: jsmithr
       database: photo-customer
-      port: 27017
       host: practicecustomer.kudgh.mongodb.net
 eureka:
   client:
