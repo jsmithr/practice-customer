@@ -7,9 +7,12 @@ server:
 spring:
   data:
     mongodb:
-      user: jsrz_pragma
+      authentication-database: admin
+      username: jsrz_pragma
       password: jsmithr
-      uri: mongodb://practicecustomer.kudgh.mongodb.net/photo-customer
+      database: photo-customer
+      port: 27017
+      host: practicecustomer.kudgh.mongodb.net
 eureka:
   client:
     serviceUrl:
