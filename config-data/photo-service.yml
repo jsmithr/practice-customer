@@ -7,11 +7,20 @@ server:
 spring:
   data:
     mongodb:
-      authentication-database: admin
+      #authentication-database: admin
+      database: photo-customer
       username: jsrz_pragma
       password: jsmithr
-      database: photo-customer
-      host: practicecustomer.kudgh.mongodb.net
+      port: '27017'
+      host: practicecustomer-shard-00-01.kudgh.mongodb.net
+#spring:
+#  data:
+#    mongodb:
+#      database: spring-boot-project-mongodb-photos-database
+#      username: root
+#      password: crissjazz98 # >:v
+#      port: '27017'
+#      host: localhost
 eureka:
   client:
     serviceUrl:
