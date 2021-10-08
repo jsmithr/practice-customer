@@ -7,12 +7,11 @@ server:
 spring:
   data:
     mongodb:
-      authentication-database: admin
       database: photo-customer
-      username: jsrz_pragma
-      password: jsmithr
+      username: MongoDB
+      password: ''
       port: 27017
-      host: practicecustomer-shard-00-00.kudgh.mongodb.net
+      host: lolcahost
 #spring:
 #  data:
 #    mongodb:
