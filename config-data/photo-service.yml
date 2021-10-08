@@ -12,14 +12,6 @@ spring:
       password: ''
       port: 27017
       host: localhost
-#spring:
-#  data:
-#    mongodb:
-#      database: spring-boot-project-mongodb-photos-database
-#      username: root
-#      password: crissjazz98 # >:v
-#      port: '27017'
-#      host: localhost
 eureka:
   client:
     serviceUrl:
