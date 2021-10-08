@@ -10,7 +10,8 @@ spring:
       database: photo-customer
       username: jsrz_pragma
       password: jsmithr
-      host: mongodb://practicecustomer-shard-00-00.kudgh.mongodb.net:27017
+      port: 27017
+      host: practicecustomer-shard-00-00.kudgh.mongodb.net
 #spring:
 #  data:
 #    mongodb:
