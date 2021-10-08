@@ -12,7 +12,7 @@ spring:
       username: jsrz_pragma
       password: jsmithr
       port: 27017
-      host: practicecustomer-shard-00-01.kudgh.mongodb.net
+      host: practicecustomer-shard-00-02.kudgh.mongodb.net
 #spring:
 #  data:
 #    mongodb:
