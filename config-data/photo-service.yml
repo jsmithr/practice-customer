@@ -11,7 +11,7 @@ spring:
       username: MongoDB
       password: ''
       port: 27017
-      host: lolcahost
+      host: localhost
 #spring:
 #  data:
 #    mongodb:
