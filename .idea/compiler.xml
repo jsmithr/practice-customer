@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="config-server" />
+        <module name="photo-service" />
         <module name="customer-service" />
         <module name="registry-service" />
       </profile>
@@ -15,6 +16,7 @@
     <bytecodeTargetLevel>
       <module name="config-server" target="11" />
       <module name="customer-service" target="11" />
+      <module name="photo-service" target="11" />
       <module name="registry-service" target="11" />
     </bytecodeTargetLevel>
   </component>
@@ -22,6 +24,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="config-server" options="-parameters" />
       <module name="customer-service" options="-parameters" />
+      <module name="photo-service" options="-parameters" />
       <module name="registry-service" options="-parameters" />
     </option>
   </component>

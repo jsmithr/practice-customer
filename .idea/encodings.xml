@@ -5,6 +5,9 @@
     <file url="file://$PROJECT_DIR$/config-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/customer-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/customer-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/customer-service/target/generated-sources/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/photo-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/photo-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/registry-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/registry-service/src/main/resources" charset="UTF-8" />
   </component>
