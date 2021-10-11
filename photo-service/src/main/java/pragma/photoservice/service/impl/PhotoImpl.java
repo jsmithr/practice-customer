@@ -48,6 +48,7 @@ public class PhotoImpl implements PhotoService {
 
 	public Photo add(Long idCustomer, MultipartFile photo) throws IOException {
 		Flux<Photo> newPhoto = getByCustomer(idCustomer);
+		System.out.println("llega");
 		System.out.println("Count = " + newPhoto.count());
 		/*newPhoto.doOnNext(fp -> System.out.println(fp.filename())).then();*/
 		byte[] fileContent = photo.getBytes();
