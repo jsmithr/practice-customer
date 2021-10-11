@@ -9,8 +9,8 @@ spring:
     mongodb:
       authentication-database: admin
       database: photo-customer
-      username: root
-      password: ''
+      #username: MongoDB
+      #password: ''
       port: 27017
       host: localhost
 eureka:
