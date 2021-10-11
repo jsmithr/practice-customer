@@ -9,10 +9,10 @@ spring:
     mongodb:
       authentication-database: admin
       database: photo-customer
-      username: jsrz_pragma
-      password: 'jsmithr'
+      #username: MongoDB
+      #password: ''
       port: 27017
-      host: practicecustomer-shard-00-01.kudgh.mongodb.net
+      host: localhost
 eureka:
   client:
     serviceUrl:
