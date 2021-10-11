@@ -7,9 +7,9 @@ import org.springframework.data.mongodb.config.EnableMongoAuditing;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 
 @EnableEurekaClient
-//@EnableMongoRepositories
+@EnableMongoRepositories
 @SpringBootApplication
-//@EnableMongoAuditing
+@EnableMongoAuditing
 public class PhotoServiceApplication {
 
 	public static void main(String[] args) {
